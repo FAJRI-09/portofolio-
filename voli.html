@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Prestasi Voli - Fajri</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: linear-gradient(135deg, #1e3a8a, #312e81);
+      color: white;
+    }
+
+    .container {
+      max-width: 420px;
+      margin: auto;
+      padding: 16px;
+    }
+
+    .card {
+      background: rgba(255,255,255,0.15);
+      border-radius: 18px;
+      padding: 16px;
+      margin-bottom: 16px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.35);
+    }
+
+    .title {
+      text-align: center;
+    }
+
+    .title h1 {
+      margin: 6px 0;
+      font-size: 26px;
+    }
+
+    .title p {
+      margin: 0;
+      font-size: 14px;
+      opacity: 0.9;
+    }
+
+    .img {
+      width: 100%;
+      border-radius: 14px;
+      margin-top: 10px;
+    }
+
+    .text {
+      font-size: 14px;
+      line-height: 1.6;
+      margin-top: 10px;
+      text-align: center;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    .grid img {
+      width: 100%;
+      border-radius: 12px;
+    }
+
+    .btn {
+      display: block;
+      text-align: center;
+      background: #22c55e;
+      color: white;
+      text-decoration: none;
+      padding: 14px;
+      border-radius: 14px;
+      font-weight: bold;
+      margin-top: 25px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+    }
+
+    .btn:active {
+      transform: scale(0.95);
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!-- JUDUL -->
+    <div class="card title">
+      <h1>🏐 VOLI</h1>
+      <p>Prestasi & Perjalanan Fajri</p>
+    </div>
+
+    <!-- FOTO 1 -->
+    <div class="card">
+      <img src="voli1.jpg" class="img" alt="Latihan Voli">
+      <div class="text">
+        Voli adalah awal Fajri belajar disiplin,
+        fokus, dan tanggung jawab dalam tim.
+      </div>
+    </div>
+
+    <!-- FOTO 2 & 3 -->
+    <div class="card">
+      <div class="grid">
+        <img src="voli2.jpg" alt="Pertandingan Voli">
+        <img src="voli3.jpg" alt="Tim Voli">
+      </div>
+      <div class="text">
+        Setiap pertandingan bukan hanya soal menang,
+        tapi tentang kerja sama dan mental baja.
+      </div>
+    </div>
+
+    <!-- FOTO 4 -->
+    <div class="card">
+      <img src="voli4.jpg" class="img" alt="Aksi Smash">
+      <div class="text">
+        Di lapangan, Fajri belajar berani mengambil
+        keputusan dan bertanggung jawab atas tim.
+      </div>
+    </div>
+
+    <!-- FOTO 5 (PENUTUP) -->
+    <div class="card">
+      <img src="voli5.jpg" class="img" alt="Prestasi Voli">
+      <div class="text">
+        Voli bukan sekadar olahraga,
+        tapi perjalanan membentuk karakter,
+        semangat juang, dan pantang menyerah.
+      </div>
+    </div>
+
+    <!-- TOMBOL KEMBALI -->
+    <a href="index.html" class="btn">
+      ← Kembali ke Menu Utama
+    </a>
+
+  </div>
+
+</body>
+</html>

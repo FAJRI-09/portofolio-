@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Prestasi - Fajri</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: linear-gradient(135deg, #0f172a, #312e81, #1e1b4b);
+      color: white;
+      min-height: 100vh;
+    }
+
+    .container {
+      max-width: 420px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .card {
+      background: rgba(255,255,255,0.12);
+      border-radius: 20px;
+      padding: 18px;
+      margin-bottom: 18px;
+      text-align: center;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+      backdrop-filter: blur(8px);
+    }
+
+    .school h1 {
+      margin: 5px 0;
+      font-size: 24px;
+    }
+
+    .school h2 {
+      margin: 0;
+      font-size: 16px;
+      opacity: 0.9;
+    }
+
+    .school p {
+      margin-top: 8px;
+      font-size: 13px;
+      opacity: 0.85;
+    }
+
+    .name {
+      font-size: 18px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      background: linear-gradient(135deg, #22c55e, #4ade80);
+      color: #022c22;
+    }
+
+    .title {
+      font-size: 22px;
+      font-weight: bold;
+      margin-top: 35px;
+      background: linear-gradient(135deg, #7c3aed, #a78bfa);
+    }
+
+    .btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      background: linear-gradient(135deg, #6366f1, #7c3aed);
+      padding: 16px;
+      border-radius: 18px;
+      margin: 14px 0;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      font-size: 16px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.35);
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+
+    .btn:active {
+      transform: scale(0.95);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+    }
+
+    .voli { background: linear-gradient(135deg, #22c55e, #16a34a); }
+    .pramuka { background: linear-gradient(135deg, #f59e0b, #d97706); }
+    .paskibra { background: linear-gradient(135deg, #ef4444, #b91c1c); }
+
+    .footer {
+      text-align: center;
+      font-size: 12px;
+      opacity: 0.7;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!-- SEKOLAH -->
+    <div class="card school">
+      <h1>SMAN 2 ENOK</h1>
+      <h2>KELAS XE2</h2>
+      <p>Guru Pembimbing: Pak Reza</p>
+    </div>
+
+    <!-- NAMA -->
+    <div class="card name">
+      M MAULANA FAJRI
+    </div>
+
+    <!-- JUDUL -->
+    <div class="card title">
+      PRESTASI
+    </div>
+
+    <!-- TOMBOL -->
+    <a href="voli.html" class="btn voli">
+      🏐 VOLI
+    </a>
+
+    <a href="pramuka.html" class="btn pramuka">
+      🏕️ PRAMUKA
+    </a>
+
+    <a href="paskibra.html" class="btn paskibra">
+      🇮🇩 PASKIBRA
+    </a>
+
+    <!-- FOOTER -->
+    <div class="footer">
+      telp.  082350692243<br>
+      tik tok.  fajri_jao
+    </div>
+
+  </div>
+
+</body>
+</html>

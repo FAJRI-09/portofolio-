@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Paskibraka - Fajri</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(180deg, #020617, #0f172a);
+      color: white;
+    }
+
+    .container {
+      max-width: 430px;
+      margin: auto;
+    }
+
+    /* HERO */
+    .hero {
+      position: relative;
+    }
+
+    .hero img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+    }
+
+    .hero-text {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      padding: 16px;
+      background: linear-gradient(transparent, rgba(0,0,0,0.9));
+    }
+
+    .hero-text h1 {
+      margin: 0;
+      font-size: 24px;
+      letter-spacing: 1px;
+    }
+
+    .hero-text p {
+      margin-top: 6px;
+      font-size: 13px;
+      opacity: 0.9;
+    }
+
+    /* CARD */
+    .card {
+      background: #1e293b;
+      border-radius: 18px;
+      padding: 16px;
+      margin: 16px;
+      box-shadow: 0 12px 28px rgba(0,0,0,0.5);
+    }
+
+    .card p {
+      font-size: 14px;
+      line-height: 1.7;
+      text-align: center;
+    }
+
+    /* GALERI */
+    .gallery-title {
+      text-align: center;
+      font-weight: bold;
+      margin-bottom: 14px;
+      letter-spacing: 1px;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: 140px;
+      object-fit: cover;
+      border-radius: 14px;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .gallery img:active {
+      transform: scale(0.95);
+      box-shadow: 0 6px 14px rgba(0,0,0,0.6);
+    }
+
+    /* BUTTON */
+    .btn {
+      display: block;
+      margin: 22px;
+      padding: 14px;
+      text-align: center;
+      background: #dc2626;
+      color: white;
+      text-decoration: none;
+      border-radius: 16px;
+      font-weight: bold;
+      box-shadow: 0 6px 16px rgba(0,0,0,0.45);
+    }
+
+    .btn:active {
+      transform: scale(0.96);
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!-- HERO -->
+    <div class="hero">
+      <img src="paskibra-hero.jpg">
+      <div class="hero-text">
+        <h1>🇮🇩 PASKIBRAKA</h1>
+        <p>Disiplin, kehormatan, dan pengabdian</p>
+      </div>
+    </div>
+
+    <!-- CERITA -->
+    <div class="card">
+      <p>
+        Paskibraka mengajarkanku arti disiplin,
+        tanggung jawab, dan kebanggaan membawa
+        nama sekolah serta bangsa.
+        Setiap langkah adalah hasil latihan
+        dan tekad yang kuat.
+      </p>
+    </div>
+
+    <!-- GALERI -->
+    <div class="card">
+      <div class="gallery-title">📸 GALERI PASKIBRA</div>
+      <div class="gallery">
+        <img src="paskibra1.jpg">
+        <img src="paskibra2.jpg">
+        <img src="paskibra3.jpg">
+        <img src="paskibra4.jpg">
+        <img src="paskibra5.jpg">
+        <img src="paskibra6.jpg">
+      </div>
+    </div>
+
+    <!-- PENUTUP -->
+    <div class="card">
+      <p>
+        Dari barisan hingga pengibaran,
+        semua proses ini membentuk mental,
+        kedisiplinan, dan rasa cinta tanah air
+        yang akan selalu aku ingat.
+      </p>
+    </div>
+
+    <!-- KEMBALI -->
+    <a href="index.html" class="btn">← Kembali ke Menu Utama</a>
+
+  </div>
+
+</body>
+</html>
